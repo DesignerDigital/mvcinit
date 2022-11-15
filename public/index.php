@@ -12,21 +12,16 @@ $router = new Router(SITE['URL_BASE']);
  * The controller must be in the namespace Test\Controller
  * this produces routes for route, route/$id, route/{$id}/profile, etc.
  */
-$router->namespace("DCabral\Controllers\Web");
+$router->namespace("Name\Controllers");
 
 $router->group(null);
 $router->get("/", "Home:index","home.index");
-
-
-// API Routes
-//$router->namespace("IeqChurch\Controllers\Api\Login");
-$router->group("api");
 
 /**
  * Group Error
  * This monitors all Router errors. Are they: 400 Bad Request, 404 Not Found, 405 Method Not Allowed and 501 Not Implemented
  */
-$router->group("error")->namespace("IeqChurch\Controllers\Error");
+$router->group("error")->namespace("Name\Controllers\Error");
 $router->get("/{errcode}", "Coffee:notFound");
 
 /**

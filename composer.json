@@ -15,7 +15,7 @@
       "application/System/Helpers.php"
     ],
     "psr-4": {
-      "Namespace\\": "application/"
+      "Name\\": "application/"
     }
   },
   "config": {

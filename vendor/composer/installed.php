@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'designdigital/name_project',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'f23dd93ffb60bdec3f71f09e3680f5b3f44e9ef2',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -38,9 +38,9 @@
             'dev_requirement' => false,
         ),
         'designdigital/name_project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'f23dd93ffb60bdec3f71f09e3680f5b3f44e9ef2',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -28,7 +28,7 @@ class ComposerStaticInit82d870ee16e9722c92ad45f194398a9f
         ),
         'N' => 
         array (
-            'Namespace\\' => 10,
+            'Name\\' => 5,
         ),
         'L' => 
         array (
@@ -71,7 +71,7 @@ class ComposerStaticInit82d870ee16e9722c92ad45f194398a9f
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
-        'Namespace\\' => 
+        'Name\\' => 
         array (
             0 => __DIR__ . '/../..' . '/application',
         ),
