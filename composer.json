@@ -1,0 +1,34 @@
+{
+  "name": "designdigital/name_project",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Desenvolvimento",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "application/System/Config.php",
+      "application/System/Helpers.php"
+    ],
+    "psr-4": {
+      "Namespace\\": "application/"
+    }
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "coffeecode/router": "1.0.8",
+    "vlucas/phpdotenv" : "v5.5.0",
+    "league/plates": "v3.4.0",
+    "coffeecode/optimizer": "2.0.2",
+    "coffeecode/datalayer": "1.1.8",
+    "phpmailer/phpmailer": "^6.5"
+  }
+}
